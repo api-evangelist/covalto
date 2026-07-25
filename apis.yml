@@ -1,8 +1,28 @@
 aid: covalto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/covalto.png
 name: Covalto
-description: 'Covalto is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: banking. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Covalto (formerly Credijusto) is a Mexican digital bank for small and
+  medium-sized businesses, headquartered in Mexico City. It offers business and
+  personal checking accounts, fixed-rate investment products, quick working-capital
+  credit (Agil Covalto), factoring, leasing (arrendamiento), and fiduciary trust
+  services (fideicomisos). Covalto acquired a regulated Mexican banking license,
+  making it one of the first fintechs in Mexico to become a fully licensed bank.
+  Its digital surface spans online banking, digital account opening, and a credit
+  application flow. Covalto is backed by QED Investors. As of the latest review it
+  publishes no public API developer portal; its developer documentation at
+  docs.covalto.com is gated behind Google Identity-Aware Proxy for internal use.
 url: https://raw.githubusercontent.com/api-evangelist/covalto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Banking
+- Mexico
+- Fintech
+- SME Lending
+- Digital Bank
+- Factoring
+- Leasing
+- Business Accounts
+- Investments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://covalto.com/
+- type: Blog
+  url: https://covalto.com/recursos/blog
+- type: Support
+  url: https://covalto.com/centro-de-ayuda
+- type: PrivacyPolicy
+  url: https://covalto.com/privacidad
+- type: TermsOfService
+  url: https://cdn.prod.website-files.com/6943e39b4d24698bfcffdd87/69aa9027022514e9b97de74e_Covalto%20Te%CC%81rminos%20y%20Condiciones%20Banca%20por%20Internet.pdf
+- type: Login
+  url: https://bancaenlinea.covalto.com/feb/authentication/start.action
+- type: SignUp
+  url: https://obcuentas.covalto.com/
+- type: DomainSecurity
+  url: security/covalto-domain-security.yml
+- type: WellKnown
+  url: well-known/covalto-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

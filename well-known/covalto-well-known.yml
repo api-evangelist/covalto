@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://covalto.com and https://api.covalto.com
+host: https://covalto.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: >-
+  No public /.well-known/ discovery surface published. api.covalto.com returns a
+  Google Cloud 404; docs.covalto.com is gated behind Google IAP (Identity-Aware
+  Proxy) and serves only an internal, authenticated developer portal. Covalto
+  publishes no public API developer surface as of this probe.
