@@ -35,6 +35,9 @@ description: >-
   publishes no public API developer portal; its developer documentation at
   docs.covalto.com is gated behind Google Identity-Aware Proxy for internal use.
 url: https://raw.githubusercontent.com/api-evangelist/covalto/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
+x-api-posture-note: "As of the latest review it publishes no public API developer portal; its developer documentation at docs.covalto.com is gated behind Google Identity-Aware Proxy for internal use."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
