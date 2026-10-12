@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/covalto/integrations
+- https://n8n.io/integrations/covalto/
+- https://composio.dev/toolkits/covalto
+- https://monid.ai/tools/covalto
+checked:
+- https://composio.dev/toolkits/covalto
+- https://monid.ai/tools/covalto
+- https://n8n.io/integrations/covalto/
+- https://zapier.com/apps/covalto/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
